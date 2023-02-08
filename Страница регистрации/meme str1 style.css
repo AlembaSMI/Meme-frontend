@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "RubikMonoOne-Regular"; 
+    src: url("../RubikMonoOne-Regular.ttf"); 
+    font-style: normal; 
+    font-weight: normal;
+    color: white;
+}
+body {
+    gap: 0;
+    margin: 0;
+    padding: 0;
+    font-family: RubikMonoOne-Regular;
+    color: white;
+}
+.background {
+    display: flex;
+    position: absolute;
+    align-content: center;
+    justify-items: center;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(360deg,#3C2974 30%, #7A0085 100%);
+}
+.content{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    align-content: stretch;
+    justify-items: center;
+}
+.logo{
+    min-width: 200px;
+    max-width: 400px;
+    width: 50%;
+}
+.avatar{
+    width: 150px;
+    height: 150px;
+    background-color: #3C2974;
+    border-radius: 100%;
+    border: solid 4px white;
+}
+.arrow{
+    position: relative;
+    left: 110px; top: -40px; z-index: 2;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+}
+.arrow :hover{
+    background-color: rgb(217, 196, 255);
+    border-radius: 100%;
+    cursor: pointer;
+}
+.but{
+    display: flex;
+    width: 220px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    align-items: center;
+    border-radius: 10px;
+    border: solid 3px rgb(0, 0, 0);
+    font-family: RubikMonoOne-Regular;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.registration{
+    display: grid;
+    grid-template-columns: 170px 1fr;
+    align-items: center;
+}
+.name{
+    display: flex;
+    width: 220px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    align-items: center;
+    border-radius: 10px;
+    border: solid 3px rgb(0, 0, 0);
+    font-family: RubikMonoOne-Regular;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.registration-buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    align-items: center;
+    justify-items: center;
+}
