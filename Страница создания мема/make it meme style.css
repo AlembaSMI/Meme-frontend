@@ -52,6 +52,7 @@ body {
     display: grid;
     grid-template-rows: 1fr 1fr;
     max-height: 700px;
+    
 }
 .start-button{
     display: grid;

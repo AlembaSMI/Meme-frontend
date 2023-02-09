@@ -93,3 +93,42 @@ body {
     align-items: center;
     justify-items: center;
 }
+
+
+.content-grade{
+    display: grid;
+    grid-template-rows: 80% 20%;
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    align-content: stretch;
+    justify-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.grade-buttons-parant{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    align-items: center;
+    justify-items: center;
+}
+.button-image{
+    width: 80px;
+    height: 80px;
+    border: solid 3px #ffffff;
+    border-radius: 100%;
+}
+.grade{
+    position: relative;
+    left: 60px; top: -33px; z-index: 2;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    background-color: #0000006c;
+}
+.button-image:hover{
+    cursor: pointer;
+    border: solid 3px #0000006c;
+    box-shadow: 6px 6px 2px 1px rgba(0, 0, 0, 0.2);
+}
