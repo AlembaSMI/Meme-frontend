@@ -1,0 +1,52 @@
+.content-grade
+{
+    display: grid;
+    align-content: stretch;
+
+    width: 80%;
+    height: 80%;
+    margin: auto;
+
+    background-color: rgba(255, 255, 255, .5);
+
+    grid-template-rows: 80% 20%;
+    justify-items: center;
+}
+
+.grade-buttons-parant
+{
+    display: grid;
+    align-items: center;
+
+    width: 80%;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.button-image
+{
+    width: 80px;
+    height: 80px;
+
+    border: solid 3px #fff;
+    border-radius: 100%;
+}
+.grade
+{
+    position: relative;z-index: 2;top: -33px; 
+    left: 60px; 
+
+    width: 25px;
+    height: 25px;
+
+    border-radius: 100%;
+    background-color: #0006c;
+}
+.button-image:hover
+{
+    cursor: pointer;
+
+    border: solid 3px #0006c;
+    box-shadow: 6px 6px 2px 1px rgba(0, 0, 0, .2);
+}
