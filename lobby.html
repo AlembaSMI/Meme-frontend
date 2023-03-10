@@ -3,67 +3,68 @@
 
 <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/bootstrap.css">
     <link rel="stylesheet" href="lobby.css">
     <link rel="stylesheet" href="common.css">
 </head>
 
 <body>
-    <div class="background">
-        <div class="lobby">
-            <div class="lobby-list">
+<div class="content">
+    <div class="container py-5">
+        <div class="row row-cols-1 row-cols-lg-2 justify-content-around">
+            <div class="col lobby-list">
                 <h1>Игроки</h1>
-                <div class="select">
-                    <select name="dropdown">
+                <div>
+                    <select class="form-control">
                         <option>12 игроков</option>
                         <option>16 игроков</option>
                         <option>20 игроков</option>
                         <option>24 игроков</option>
                     </select>
                 </div>
-                <div class="player lobby-list-vip">
+                <div class="player">
                     <div class="player-avatar"></div>
                     Алена
                 </div>
-                <div class="player lobby-list-player">
+                <div class="player">
                     <div class="player-avatar"></div>
                     Аленуссс
                 </div>
-                <div class="player lobby-list-player-false">
+                <div class="player">
                     <div class="player-avatar"></div>
                     пусто
                 </div>
             </div>
-            <div class="lobby-settings-wrapper">
-                <div class="lobby-settings">
-                    <div class="selecting-settings">
-                        <label class="container">
-                            <input type="checkbox" checked="checked">
-                            <span class="checkmark"></span>
+            <div class="col">
+                <div class="row row-cols-1 lobby-settings">
+                    <div class="col selecting-settings">
+                        <label class="checkbox-container">
+                            <input class="form-check-input" type="checkbox" id="firstCheck">
+                            <label class="form-check-label" for="firstCheck">
+                                Первая опция
+                            </label>
                         </label>
-                        <div>
-                            Витя лох
-                        </div>
                     </div>
-                    <div class="selecting-settings">
-                        <label class="container">
-                            <input type="checkbox" checked="checked">
-                            <span class="checkmark"></span>
+                    <div class="col selecting-settings">
+                        <label class="checkbox-container">
+                            <input class="form-check-input" type="checkbox" id="secondCheck">
+                            <label class="form-check-label" for="secondCheck">
+                                Второая опция
+                            </label>
                         </label>
-                        <div>
-                            Да еще какой лох
-                        </div>
                     </div>
                 </div>
-                <div class="buttons-wrapper">
-                    <button class="button">
+                <div class="row row-cols-2">
+                    <button class="button col">
                         Начать игру
                     </button>
-                    <button class="button">
+                    <button class="button col">
                         Скопировать код
                     </button>
                 </div>
             </div>
         </div>
     </div>
+</div>
 </body>
 </html>

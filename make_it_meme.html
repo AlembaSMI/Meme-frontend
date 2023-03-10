@@ -1,28 +1,28 @@
 <!DOCTYPE HTML>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="make_it_meme.css">
-        <link rel="stylesheet" href="common.css">
-    </head>
-    <div class="background">
-        <div class="timer">
-            <div class="timer_items">
-              <div class="timer_item">00</div>
-              <div class="timer_item">00</div>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/bootstrap.css">
+    <link rel="stylesheet" href="make_it_meme.css">
+    <link rel="stylesheet" href="common.css">
+</head>
+<div class="content">
+    <div class="container py-5">
+        <div class="row justify-content-end">
+            <div class="col-auto timer">
+                <div class="time">00:00</div>
             </div>
         </div>
-        <div class="content">
-            <div class="meme">
+        <div class="row row-cols-1 row-cols-lg-2 justify-content-around  gy-3">
+            <div class="col meme">
                 <img src="assets/test_meme.jfif" class="image" alt="">
             </div>
-            <div class="make-text">
-                <div class="parent-text">
-                    <textarea name="textarea" class="text" placeholder="Текст 1"></textarea>
-                    <textarea name="textarea" class="text" placeholder="Текст 1"></textarea>
-                </div>
+            <div class="col make-text">
+                <textarea name="textarea" class="text" placeholder="Текст 1"></textarea>
+                <textarea name="textarea" class="text" placeholder="Текст 2"></textarea>
                 <button class="start-button">Готово</button>
             </div>
         </div>
     </div>
+</div>
 </html>
