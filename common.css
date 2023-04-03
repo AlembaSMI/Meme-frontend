@@ -103,3 +103,9 @@ select
     border-radius: 100%;
     background-color: rgba(255, 255, 255, .3);
 }
+
+.backgrounded
+{
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 25px;
+}
