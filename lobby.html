@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="assets/bootstrap.css">
     <link rel="stylesheet" href="lobby.css">
     <link rel="stylesheet" href="common.css">
@@ -11,31 +12,52 @@
 <body>
 <div class="content">
     <div class="container py-5">
-        <div class="row row-cols-1 row-cols-lg-2 justify-content-around g-3">
-            <div class="col lobby-list">
+        <div class="row row-cols-1 row-cols-lg-12 justify-content-around g-3">
+            <div class="col col-lg-4 lobby-list">
                 <h1>Игроки</h1>
-                <div>
+                <!-- <div>
                     <select class="form-control">
                         <option>12 игроков</option>
                         <option>16 игроков</option>
                         <option>20 игроков</option>
                         <option>24 игроков</option>
                     </select>
+                </div> -->
+                <div class="row justify-content-between p-1 player">
+                    <div class="col col-auto g-0">
+                        <img class="player-avatar" src="assets/avatar1.png">
+                        Alemba
+                    </div>
+                    <div class="col col-auto d-flex align-content-center flex-wrap g-0">
+                        <span class="col material-icons">
+                            stars
+                        </span>
+                    </div>
                 </div>
-                <div class="player">
-                    <div class="player-avatar"></div>
-                    Алена
+                <div class="row justify-content-between p-1 player">
+                    <div class="col col-auto g-0">
+                        <img class="player-avatar" src="assets/avatar1.png">
+                        Alemba
+                    </div>
+                    <div class="col col-auto d-flex align-content-center flex-wrap g-0">
+                        <span class="col material-icons icon-close">
+                            cancel
+                        </span>
+                    </div>
                 </div>
-                <div class="player">
-                    <div class="player-avatar"></div>
-                    Аленуссс
-                </div>
-                <div class="player">
-                    <div class="player-avatar"></div>
-                    пусто
+                <div class="row justify-content-between p-1 player">
+                    <div class="col col-auto g-0">
+                        <img class="player-avatar" src="assets/avatar1.png">
+                        Alemba
+                    </div>
+                    <div class="col col-auto d-flex align-content-center flex-wrap g-0">
+                        <span class="col material-icons icon-close">
+                            cancel
+                        </span>
+                    </div>
                 </div>
             </div>
-            <div class="col gx-lg-5">
+            <div class="col col-lg-8 gx-lg-5">
                 <div class="row row-cols-1 lobby-settings">
                     <div class="col selecting-settings">
                         <div class="checkbox-container">
